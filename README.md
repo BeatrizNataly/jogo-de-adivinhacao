@@ -1,38 +1,17 @@
 # Jogo de adivinhação 🎰
 
 Este arquivo é uma versão simplificada de um protótipo de jogo cujo objetivo é adivinhar um número
-randômico entre 0 e 100 com apenas 10 tentativas. O programa exibirá no console as instruções e dicas para jogar, e por fim,
-basta inserir o número que acredita que seja o correto e clicar ENTER para confirmar sua resposta. ⌨️
+randômico entre 0 e 100 com apenas 10 tentativas.⌨️
 
 ⭕️ A mecânica do programa está em fase de adaptação e todo feedback é bem-vindo.⭕️
-### Versões disponíveis:
-. Java (Sem interface) -- Concluído
-. Javascript (Sem interface) -- Em progresso.
 
 ## Como jogar?
-1. Baixe o pacote JogoVer2.
-2. Abra o Inicio.class em seu editor de código.
-3. Abra o Console.
-4. Clique em Executar ou Rodar código.
-5. As instruções aparecerão no Console, basta clicar nele, digitar e confirmar pressionando ENTER.
-6. Caso haja algum erro no código, interrompa o mesmo e tente novamente, caso o erro persista, entre
-em contato com a desenvolvedora e deixe seu feedback para correções futuras.
+1. Clone o repositório em sua máquina.
+2. Abra o index.html em seu navegador.
+3. Siga as instruções na tela para jogar.
 
-Updates sobre as versões já feitas no arquivo. *(Note que algumas versões podem não ter sido publicadas ainda no GitHub,
-e encontram-se neste arquivo a cargo de report sobre a evolução geral do projeto.)*
+O jogo gera por padrão 10 tentativas para o jogador. Após a primeira vitória, os modos "Difícil" e "Customizado" são desbloqueados.
+Há também um Easter Egg (Segredo) que pode ser visto pelo jogador caso digite determinados números na execução do jogo, ou pelos arquivos e código.
 
-### versao-1 (Java)
-- Scanner adicionado.
-- Número randômico adicionado.
-- If/Else para números maiores, menores e iguais adicionado.
-
-### versao-2 (Java)
-- Print das instruções no Console.
-- Print do diálogo inicial no Console.
-
-### versao-3 (Java)
-- Print da apresentação do programa no Console.
-- ArrayList com todas as falas do jogo adicionadas.
-- Retorno personalizado da String do If/Else para números maiores, menores ou iguais e ainda, para o fim de jogo por esgotamento
-de tentativas.
-
+Caso tenha dúvidas, veja o ícone amarelo "Como jogar" presente no index.html. Caso hajam erros ou problemas no jogo, clique no ícone vermelho ao lado de "Como jogar",
+ou reporte os erros diretamente em Issues, no GitHub.
